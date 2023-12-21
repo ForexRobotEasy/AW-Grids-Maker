@@ -1,0 +1,55 @@
+
+// Developer: Forex Robot Easy Team
+// Website: forexroboteasy.com
+
+// AW Grids Maker utility for building grids from pending orders in the Forex market
+
+// Function to create a grid of positions
+void CreateGrid(int gridSize, double[] priceLevels, ENUM_ORDER_TYPE orderType)
+{
+    // Code to generate the grid based on user-defined parameters
+    // ...
+}
+
+// Function to manage the grid
+void ManageGrid(int positionIndex, double newPosition, ENUM_ORDER_TYPE orderType)
+{
+    // Code to modify, add, or remove positions in the grid
+    // ...
+}
+
+// Function to customize the grid strategy
+void CustomizeGrid(double distanceBetweenLevels, int positionsPerLevel, ENUM_ORDER_TYPE[] orderTypes)
+{
+    // Code to customize the grid strategy based on user-defined options
+    // ...
+}
+
+// Function to integrate with pending order system
+void UtilizePendingOrders()
+{
+    // Code to integrate with the Forex trading platform's pending order system
+    // ...
+}
+
+// Function to set up and adjust grid parameters
+void SetupGrid(int gridSize, double[] priceLevels, ENUM_ORDER_TYPE[] orderTypes)
+{
+    // Code to set up and adjust grid parameters based on user input
+    // ...
+}
+
+// Main function to execute the AW Grids Maker utility
+void OnStart()
+{
+    // Call the necessary functions to perform the required tasks
+    CreateGrid(10, {1.1000, 1.1010, 1.1020, 1.1030, 1.1040}, ORDER_TYPE_BUY);
+    ManageGrid(2, 1.1015, ORDER_TYPE_SELL);
+    CustomizeGrid(0.001, 3, {ORDER_TYPE_BUY, ORDER_TYPE_SELL, ORDER_TYPE_SELL});
+    UtilizePendingOrders();
+    SetupGrid(10, {1.1000, 1.1010, 1.1020, 1.1030, 1.1040}, {ORDER_TYPE_BUY, ORDER_TYPE_SELL, ORDER_TYPE_SELL});
+    
+    // Add any additional code or logic here
+    
+    // End of program
+}
